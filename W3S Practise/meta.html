@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--HTML head Elements
+ Tag 	        Description
+ 
+<head> 	    Defines information about the document
+<title> 	Defines the title of a document
+<base> 	    Defines a default address or a default target for all links on a page
+<link> 	    Defines the relationship between a document and an external resource
+<meta> 	    Defines metadata about an HTML document
+<script> 	Defines a client-side script
+<style> 	Defines style information for a document:-->
+
+    <!--   Define the character set used:-->
+    <meta charset="UTF-8">
+    <!--    Define a description of your web page:-->
+    <meta name="description" content="Free Web tutorials">
+    <!--    Define keywords for search engines:-->
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <!--    Define the author of a page:-->
+    <meta name="author" content="John Doe">
+    <!--    Refresh document every 20 seconds:-->
+    <meta http-equiv="refresh" content="20">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    he <base> element specifies the base URL and base target for all relative URLs in a page:-->
+    <base href="https://www.w3schools.com/images/" target="_blank">
+    <!--The HTML <script> Element
+
+The <script> element is used to define client-side JavaScripts.
+
+This JavaScript writes "Hello JavaScript!" into an HTML element with id="demo"::-->
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <p>All meta information goes before the body Element.</p><br>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+
+</body>
+
+</html>

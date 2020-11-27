@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    color: black;
+    background: ;
+    background-color: aqua;
+    background-image: url("imgs/Park.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-clip: border-box;
+}
+h2{}
+p{}

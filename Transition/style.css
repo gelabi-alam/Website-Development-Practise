@@ -1,0 +1,60 @@
+.mydiv {
+    width: 150px;
+    height: 150px;
+    margin: 100px auto;
+    background-color: red;
+
+
+    -webkit-animation-name: abdul;
+    animation-name: abdul;
+
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+
+    -webkit-animation-iteration-count: 5;
+    animation-iteration-count: 5;
+
+    -webkit-animation-delay: 3s;
+    animation-delay: 1s;
+}
+
+
+@-webkit-keyframes abdul {
+    0% {
+        background-color: red
+    }
+    20% {
+        background-color: green
+    }
+    40% {
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+    }
+    80% {
+        background-color: yellow
+    }
+    100% {
+        background-color: red
+    }
+}
+
+@keyframes abdul {
+    0% {
+        background-color: red
+    }
+    20% {
+        background-color: green
+    }
+    40% {
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+    }
+    80% {
+        background-color: yellow
+    }
+    100% {
+        background-color: red
+    }
+}

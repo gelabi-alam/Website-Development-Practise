@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.first {
+    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#show {
+    color: red;
+    padding: 20px;
+    margin: 100px auto;
+}

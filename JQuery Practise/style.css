@@ -1,0 +1,67 @@
+body,
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#one {
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+#first {
+    width: 200px;
+    height: 150px;
+    background-color: red;
+
+}
+
+#second {
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+
+}
+
+#third {
+    width: 200px;
+    height: 150px;
+    background-color: cyan;
+
+}
+
+#fourth {
+    width: 200px;
+    height: 150px;
+    background-color: limegreen;
+    /*    display: none;*/
+}
+
+#fifth {
+    width: 200px;
+    height: 150px;
+    background-color: crimson;
+    /*    display: none;*/
+}
+
+#one {
+    width: 200px;
+    height: 150px;
+    background-color: limegreen;
+
+}
+.para{
+    width: 300px;
+    background-color: red;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+.para:hover{;
+    background-color: limegreen;
+    width: 300px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
